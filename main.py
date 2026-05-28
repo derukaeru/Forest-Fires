@@ -1,7 +1,14 @@
 import pygame
 
-def _draw():
-    pass
+pygame.init()
 
-def _update():
-    pass
+screen = pygame.display.set_mode((480, 360))
+pygame.display.set_caption("Forest Fire Simulation")
+
+running = True
+while running:
+    for event in pygame.event.get()
+        if event.type == pygame.QUIT:
+            running = False
+
+pygame.quit()
