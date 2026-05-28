@@ -20,5 +20,5 @@ class Tile:
     moisture: float = BASE_MOISTURE
     fuel: float = BASE_FUEL
 
-    def spread(self):
+    def spread(self) -> None:
         pass
