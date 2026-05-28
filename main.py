@@ -19,5 +19,7 @@ while running:
             running = False
 
     # sim
+    screen.fill((32, 8, 22))
+    pygame.display.flip()
 
 pygame.quit()
