@@ -1,4 +1,4 @@
-
+import pygame
 
 def _draw():
     pass
