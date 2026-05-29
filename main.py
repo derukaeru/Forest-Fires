@@ -1,4 +1,5 @@
 import environment as env
+import grid as gr
 import tile
 
 import pygame
@@ -8,7 +9,7 @@ screen = pygame.display.set_mode((480, 360))
 pygame.display.set_caption("Forest Fire Simulation")
 running = True
 
-
+grid = gr.Grid()
 environment  = env.Environment()
 
 # game
